@@ -7,3 +7,40 @@
 html {
   font-size: 62.5%;
 }
+
+body {
+  width: min-content;
+  margin: auto;
+  text-align: center;
+}
+
+.header {
+  font-size: 58pt;
+}
+
+.navigation {
+  margin: 20px auto 20px auto;
+  list-style: none;
+  width: 75%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-bottom: 1px black solid;
+}
+
+.navigation li {
+  font-size: 14pt;
+  padding: 20px;
+}
+
+.navigation li:hover {
+  display: block;
+  background-color: rgba(255, 0, 0, 0.225);
+}
+
+.maincontent {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: aqua;
+  width: 100%;
+}
